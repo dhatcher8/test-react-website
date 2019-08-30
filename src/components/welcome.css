@@ -1,0 +1,37 @@
+img.bg {
+    /* Set rules to fill background */
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container {
+    height: 2000px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    vertical-align: middle;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+  
+/*@media screen and (max-width: 1024px) { /* Specific to this particular image */
+/*    img.bg {*/
+/*      left: 50%;*/
+/*      margin-left: -512px;   /* 50% */ 
+/*    }*/
+/*}*/
