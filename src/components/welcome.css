@@ -8,13 +8,12 @@ img.bg {
       
     /* Set up positioning */
     position: fixed;
-    top: 0;
+    top: 57px;
     left: 0;
     width: 100%;
 }
 
 .container {
-    height: 2000px;
     position: relative;
     text-align: center;
     color: white;
@@ -22,7 +21,7 @@ img.bg {
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 400px;
     left: 50%;
     vertical-align: middle;
     -ms-transform: translate(-50%, -50%);
